@@ -3,18 +3,18 @@ module github.com/bjunker99/terraform-provider-kubectl
 go 1.19
 
 require (
-	github.com/cenkalti/backoff/v4 v4.1.1
+	github.com/cenkalti/backoff/v4 v4.2.1
 	github.com/hashicorp/go-plugin v1.4.10
 	github.com/hashicorp/hcl/v2 v2.17.0
 	github.com/hashicorp/terraform v0.12.29
 	github.com/hashicorp/terraform-plugin-go v0.16.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.26.1
-	github.com/icza/dyno v0.0.0-20200205103839-49cb13720835
+	github.com/icza/dyno v0.0.0-20230330125955-09f820a8d9c0
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.8.4
 	github.com/zclconf/go-cty v1.13.2
-	github.com/zclconf/go-cty-yaml v1.0.2
-	google.golang.org/grpc v1.56.0
+	github.com/zclconf/go-cty-yaml v1.0.3
+	google.golang.org/grpc v1.56.1
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.21.3
 	k8s.io/apimachinery v0.21.3
